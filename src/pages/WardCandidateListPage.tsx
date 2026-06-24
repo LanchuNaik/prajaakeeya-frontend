@@ -3534,7 +3534,7 @@ const WardCandidateListPage = ({ embedded = false }: WardCandidateListPageProps 
                 {t('pages.wardCandidates.votingWindowTitle') || 'Voting Eligibility'}
               </Typography>
             </Box>
-            <IconButton size="small" onClick={() => setEligibilityDialogOpen(false)}>
+            <IconButton aria-label="Close" size="small" onClick={() => setEligibilityDialogOpen(false)}>
               <CloseIcon sx={{ fontSize: 18, color: textSecondary }} />
             </IconButton>
           </DialogTitle>

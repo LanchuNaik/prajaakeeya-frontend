@@ -3372,8 +3372,11 @@ const WardCandidateListPage = ({ embedded = false }: WardCandidateListPageProps 
                         const finalDisabled = isDemo || voteDisabled || hasVoted || Boolean(user?.hasVoted);
                         return (
                           <Box sx={{ width: '100%' }}>
-                            {/* Signed SOP button */}
-                            {(isDemoCandidate(candidate) || candidate.sopUrl || candidate.sopKannadaUrl) && (
+                            {/* Signed SOP button — temporarily hidden for ALL aspirants so the
+                                card layout is uniform (it previously showed only for aspirants
+                                who had a signed SOP on file, which looked inconsistent). To
+                                re-enable, remove the `false &&` below. */}
+                            {false && (isDemoCandidate(candidate) || candidate.sopUrl || candidate.sopKannadaUrl) && (
                               <Box sx={{ mb: 1 }}>
                                 <Button
                                   variant="outlined"

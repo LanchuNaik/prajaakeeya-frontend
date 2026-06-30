@@ -151,7 +151,7 @@ const PublicLayout = () => {
                   sx={{
                     borderRadius: 20,
                     px: 3,
-                    boxShadow: isActive ? 'none' : 'none',
+                    boxShadow: 'none',
                     color: isActive ? '#fff' : 'text.primary',
                     bgcolor: isActive ? 'primary.main' : 'transparent',
                     '&:hover': {

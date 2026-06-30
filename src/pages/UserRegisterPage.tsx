@@ -302,9 +302,7 @@ const UserRegisterPage = () => {
                   border: `1px solid ${isDark ? "rgba(245,168,0,0.25)" : "rgba(245,168,0,0.4)"}`,
                   borderRadius: 2,
                   p: 2,
-                  background: isDark
-                    ? "rgba(245,168,0,0.04)"
-                    : "rgba(245,168,0,0.04)",
+                  background: "rgba(245,168,0,0.04)",
                 }}
               >
 

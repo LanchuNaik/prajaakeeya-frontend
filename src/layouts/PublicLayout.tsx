@@ -22,7 +22,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import prajakeeyaLogo from '../assets/images/prajakeeya.webp';
 import LanguageSelector from '../components/LanguageSelector';
 import HomeIcon from '@mui/icons-material/Home';
-import PeopleIcon from '@mui/icons-material/People';
 import BarChartIcon from '@mui/icons-material/BarChart';
 import InfoIcon from '@mui/icons-material/Info';
 import ContactMailIcon from '@mui/icons-material/ContactMail';

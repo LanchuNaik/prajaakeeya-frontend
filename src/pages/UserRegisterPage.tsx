@@ -15,10 +15,6 @@ import {
   Checkbox,
   FormControlLabel,
 } from "@mui/material";
-import {
-  Close as CloseIcon,
-  InfoOutlined as InfoIcon,
-} from "@mui/icons-material";
 import { useTranslation } from "react-i18next";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { getGoogleOAuthUrl } from "../services/authService";

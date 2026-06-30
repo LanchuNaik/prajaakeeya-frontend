@@ -71,7 +71,7 @@ import {
   type GPVillage,
   type ConstituencyStats,
 } from '../services/electionService';
-import { fetchVotingWindow, submitVote, fetchMyVote } from '../services/voteService';
+import { fetchVotingWindow, fetchMyVote } from '../services/voteService';
 import useAuthStore from '../store/useAuthStore';
 import apiClient from '../services/apiClient';
 import CloseIcon from '@mui/icons-material/Close';
